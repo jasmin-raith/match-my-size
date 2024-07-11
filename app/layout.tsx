@@ -17,8 +17,8 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
-        <main className="flex h-screen w-screen items-center justify-center bg-black sm:py-16">
-          <div className="h-full w-full sm:w-80 bg-white">
+        <main className="flex h-screen w-screen items-center justify-center bg-black">
+          <div className="h-full w-full bg-white overflow-scroll sm:!max-h-[932px] sm:w-80">
             {children}
           </div>
         </main>
