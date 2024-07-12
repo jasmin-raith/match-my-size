@@ -1,7 +1,7 @@
 
 export default function Home() {
   return (
-        <>
+        <div className="mx-8">
           <h1 className="text-center font-bold  tracking-tight text-[var(--accent-color)]">
               Match <br /> My Size
           </h1>
@@ -10,10 +10,10 @@ export default function Home() {
             src="/MatchMySizeLogo.svg"
             className="my-10 mx-auto h-24 w-auto" 
           />
-          <p className="mx-5 text-center text-2xl">
+          <h2 className="text-center">
             Finde Kleidung die perfekt zu deinem Körper passt
-          </p>
-          <h2 className="mt-14 mx-5 text-center text-2xl font-bold leading-9 tracking-tight">
+          </h2>
+          <h2 className="mt-14 text-center font-bold leading-9 tracking-tight">
             Logge dich in dein Konto ein
           </h2>
 
@@ -39,6 +39,6 @@ export default function Home() {
               <span className="text-sm font-semibold leading-6">Google</span>
             </a>
           </div>
-    </>
+    </div>
   )
 }
