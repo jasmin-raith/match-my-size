@@ -18,7 +18,7 @@ export default function RootLayout({
     <html lang="en">
       <body className={inter.className}>
         <main className="flex h-screen w-screen items-center justify-center bg-black">
-          <div className="h-full w-full bg-white overflow-scroll sm:!max-h-[932px] sm:w-80">
+          <div className="content-center h-full w-full bg-white overflow-scroll sm:!h-[95%] sm:!max-h-[932px] sm:w-[430px]">
             {children}
           </div>
         </main>

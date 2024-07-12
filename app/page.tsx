@@ -2,16 +2,19 @@
 export default function Home() {
   return (
         <>
-          <h1 className="mt-10 text-center text-2xl font-bold leading-9 tracking-tight text-gray-900">
-              Match My Size
+          <h1 className="text-center font-bold  tracking-tight text-[var(--accent-color)]">
+              Match <br /> My Size
           </h1>
           <img
             alt="Your Company"
             src="/MatchMySizeLogo.svg"
-            className="mt-10 mx-auto h-20 w-auto" 
+            className="my-10 mx-auto h-24 w-auto" 
           />
-          <h2 className="mt-20 text-center text-2xl font-bold leading-9 tracking-tight text-gray-900">
-            Sign in to your account
+          <p className="mx-5 text-center text-2xl">
+            Finde Kleidung die perfekt zu deinem Körper passt
+          </p>
+          <h2 className="mt-14 mx-5 text-center text-2xl font-bold leading-9 tracking-tight">
+            Logge dich in dein Konto ein
           </h2>
 
           <div className="mt-10 mx-10">
